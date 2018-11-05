@@ -300,3 +300,12 @@ const scale = {
 * 极坐标下的坐标轴上默认不显示title，栅格线有圆形和多边形两种；
 * theta、helix 坐标系默认不显示坐标轴；
 * polar 坐标系发生 transpose 时也不显示坐标轴。
+
+
+### 6、Rotate y-axis label in <Axis lable{{....}} >
+ `<Chart height={250} data={data.chart} scale={cols} forceFit padding={[25, 16, 90, 45,]}>
+                <Axis name="genre" label={{ offset: 5,  textStyle: { rotate: 90, textAlign : ' left ' } }}/>
+---------------//www.thesoftdesign.com
+---------------
+---------------
+</Chart>`
